@@ -310,14 +310,21 @@ body {
 }
 
 @media (min-width: 160px) and (max-width: 410px) {
+  .bit-smaller{
+    max-width:63% !important;
+  }
   .slider-container .slider-content .slider-single .slider-single-image {
     max-width: 70%;
   }
   .why {
     max-width: 125% !important;
   }
+  
 }
 @media (min-width: 411px) and (max-width: 470px) {
+  .bit-smaller{
+    max-width:75% !important;
+  }
   .slider-container .slider-content .slider-single .slider-single-image {
     max-width: 80%;
   }
@@ -329,6 +336,9 @@ body {
   }
 }
 @media (min-width: 471px) and (max-width: 550px) {
+  .bit-smaller{
+    max-width:63% !important;
+  }
   .slider-container .slider-content .slider-single .slider-single-image {
     max-width: 70%;
   }

@@ -42,7 +42,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-    
+
   .slider-content {
     position: relative;
     margin: auto;
@@ -64,7 +64,7 @@ body {
         top: 0;
         height: auto;
         padding-bottom: 1px;
-        max-width: 100%;
+        max-width: 23%;
         // box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
         transition: $time $mode;
         transform: scale(0);
@@ -242,28 +242,160 @@ body {
   transform: rotate(-10deg) !important;
   text-transform: uppercase !important;
 }
-.choose{
-    text-align:center;
-    font-family: 'michland-script';
-    font-size: 4.5em;
-    font-weight: 300;
-    margin:0;
+.choose {
+  text-align: center;
+  font-family: "michland-script";
+  font-size: 4.5em;
+  font-weight: 300;
+  margin: 0;
 }
-.test-section{
-    height: 800px;
-    width: 100vw;
-    background-color: grey;
+.test-section {
+  height: 800px;
+  width: 100vw;
+  background-color: grey;
 }
-.test-section-2{
-    height: 800px;
-    width: 100vw;
-    background-color: gainsboro;
+.test-section-2 {
+  height: 800px;
+  width: 100vw;
+  background-color: gainsboro;
 }
 
-.michland{
-    font-family: 'michland-script';
-    text-transform: capitalize;
-    padding-left:20%;
+.michland {
+  font-family: "michland-script";
+  text-transform: capitalize;
+  padding-left: 20%;
+  text-shadow: 2px 2px 2px black;
+}
+.michland-script {
+  font-family: "michland-script";
+  font-size: 3.8rem;
+}
+.impact-1 {
+  font-family: "impact";
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.impact {
+  font-family: "impact";
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.welcome {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 //   Responsive
+
+@media (max-width: 650px) {
+  .h {
+    display: none;
+  }
+  .michland-script {
+    font-size: 2.8rem;
+  }
+  .choose {
+    font-size: 2.5em;
+  }
+
+  .slider-container .slider-content .slider-single .slider-single-title {
+    font-size: 6vw;
+  }
+  .weekday {
+    left: 15% !important;
+  }
+}
+
+@media (min-width: 160px) and (max-width: 410px) {
+  .slider-container .slider-content .slider-single .slider-single-image {
+    max-width: 70%;
+  }
+  .why {
+    max-width: 125% !important;
+  }
+}
+@media (min-width: 411px) and (max-width: 470px) {
+  .slider-container .slider-content .slider-single .slider-single-image {
+    max-width: 80%;
+  }
+  .slider-container .slider-content .slider-single {
+    top: -20px;
+  }
+  .why {
+    max-width: 135% !important;
+  }
+}
+@media (min-width: 471px) and (max-width: 550px) {
+  .slider-container .slider-content .slider-single .slider-single-image {
+    max-width: 70%;
+  }
+  .slider-container .slider-content .slider-single {
+    top: -15px;
+  }
+  .why {
+    max-width: 125% !important;
+  }
+}
+@media (min-width: 551px) and (max-width: 650px) {
+  .slider-container .slider-content .slider-single .slider-single-image {
+    max-width: 65%;
+  }
+  .slider-container .slider-content .slider-single {
+    top: -15px;
+  }
+  .why {
+    max-width: 115% !important;
+  }
+}
+@media (min-width: 651px) and (max-width: 750px) {
+  .slider-container .slider-content .slider-single .slider-single-image {
+    max-width: 50%;
+  }
+  .slider-container .slider-content .slider-single {
+    top: -15px;
+  }
+  .why {
+    max-width: 95% !important;
+  }
+}
+@media (min-width: 751px) and (max-width: 850px) {
+  .slider-container .slider-content .slider-single .slider-single-image {
+    max-width: 47%;
+  }
+  .slider-container .slider-content .slider-single {
+    top: -15px;
+  }
+  .why {
+    max-width: 83% !important;
+  }
+}
+@media (min-width: 851px) and (max-width: 950px) {
+  .slider-container .slider-content .slider-single .slider-single-image {
+    max-width: 38%;
+  }
+  .slider-container .slider-content .slider-single {
+    top: -15px;
+  }
+  .why {
+    max-width: 65% !important;
+  }
+}
+
+@media (min-width: 951px) and (max-width:1050px) {
+  .why {
+    max-width: 45% !important;
+  }
+}
+@media (min-width: 1051px) and (max-width:1150px) {
+  .why {
+    max-width: 42% !important;
+  }
+}
+@media (min-width: 1151px){
+  .why {
+    max-width: 40% !important;
+  }
+}

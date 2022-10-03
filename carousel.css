@@ -40,10 +40,6 @@
     transform: scale(1);
   }
 }
-html {
-  background-color: black;
-}
-
 body {
   color: #ffffff;
   background-image: url(background-transparent-extra-min.png), linear-gradient(178deg, #4d0707, #8a0000, #4d0707);

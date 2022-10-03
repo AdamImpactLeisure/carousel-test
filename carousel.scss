@@ -319,6 +319,18 @@ body {
   .why {
     max-width: 125% !important;
   }
+  .slider-container .slider-content .slider-single .slider-single-title {
+    font-size:7vw !important;
+  }
+  .slider-container .slider-right{
+    top:40% !important;
+    left:75% !important;
+  }
+  .slider-container .slider-left{
+    top:40% !important;
+    right:75% !important;
+  }
+
   
 }
 @media (min-width: 411px) and (max-width: 470px) {
